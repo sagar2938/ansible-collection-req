@@ -1,0 +1,1 @@
+- name: oracle.oci_ansible_modules
