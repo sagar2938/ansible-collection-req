@@ -1,3 +1,4 @@
 ---
 roles:
-  - name: oci_ansible_modules
+  - name: oracle.oci_ansible_modules
+    version: 1.19.0
