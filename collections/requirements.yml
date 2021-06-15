@@ -1,3 +1,2 @@
 collections:
-  - name: 'oracle.oci'
-    version: 2.23.0 
+  - name: oracle.oci
