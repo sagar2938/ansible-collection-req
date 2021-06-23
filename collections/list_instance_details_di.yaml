@@ -1,0 +1,7 @@
+- hosts: AnsibleIntegrationTestCompartment1
+  tasks:
+    - name: Print instance details
+      debug:
+        msg: "Launched a new instance {{ result }}"
+    - set_fact:
+        instance_id: "{{result.instance.id }}"
